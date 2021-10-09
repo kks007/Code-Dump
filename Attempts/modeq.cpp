@@ -5,7 +5,8 @@ typedef long long ll;
 #define fast_cin() ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
 
 
-void solve(){
+void solve()
+{
     ll n,m;
     cin>>n>>m;
     ll res=0;

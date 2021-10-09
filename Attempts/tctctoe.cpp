@@ -61,20 +61,20 @@ int main ()
        n = 1;
 
 
-    if ((m==1 && n==1) || (x-o<0) || (x-o >1))
-        cout<<"3"<<endl;
-    else if (x==0 && o==0 && u==9)
-        cout<<"2"<<endl;
-    else if (m==1 && n==0 && x>o)
-        cout<<"1"<<endl;
-    else if (m==0 && n==1 && x==o)
-        cout<<"1"<<endl;
-    else if (m==0 && n==0 && u==0)
-        cout<<"1"<<endl;
-    else if (m==0 && n==0 && u>0)
-        cout<<"2"<<endl;
-    else
-        cout<<"3"<<endl;
+        if ((m==1 && n==1) || (x-o<0) || (x-o >1))
+            cout<<"3"<<endl;
+        else if (x==0 && o==0 && u==9)
+            cout<<"2"<<endl;
+        else if (m==1 && n==0 && x>o)
+            cout<<"1"<<endl;
+        else if (m==0 && n==1 && x==o)
+            cout<<"1"<<endl;
+        else if (m==0 && n==0 && u==0)
+            cout<<"1"<<endl;
+        else if (m==0 && n==0 && u>0)
+            cout<<"2"<<endl;
+        else
+            cout<<"3"<<endl;
 
     }
 }
