@@ -1,12 +1,8 @@
-user_input = input("Please enter 3 numbers separated by commmas: ")
+pi = 3.14
 
-string = user_input.split(",")
+def area(radius):
+    circleArea = pi*radius*radius
+    print(circleArea)
 
-ints = []
-
-for index in string:
-    ints.append(int(index))
-
-result = ints[0] + ints[1] - ints[2]
-
-print(result)
+area(12)
+area(5)

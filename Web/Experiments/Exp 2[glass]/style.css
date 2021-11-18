@@ -19,8 +19,8 @@ main{
     width: 60%;
     background: linear-gradient(
         to right bottom,
-        rgba(255,255,255,0.7), 
-        rgba(255,255,255,0.3));
+        rgba(250, 94, 221, 0.7), 
+        rgba(223, 30, 197, 0.3));
     border-radius: 20px;
     z-index: 2;
     backdrop-filter: blur(2rem);

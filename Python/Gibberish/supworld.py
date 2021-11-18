@@ -1,14 +1,10 @@
-import os 
+## write a program to calculate compound interest for p amount = 10,000 at the rate = 5%, and the time = 7 years.
 
-print("sup world")
+def cInt(principle, rate, time):
 
-def function ()
-    #fhffffd
-    #dfdkfhdsf
-    #dfkdfhds
-    print("bakwaas")
-
-
-a = input ("Enter a number\n")
-print ("your number is: ", a)
+    Amount = principle * (pow((1 + rate / 100), time))
+    CI = Amount - principle
+    print("Compound interest is", CI)
+ 
+cInt(10000, 5, 7)
 
