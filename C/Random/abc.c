@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+
 
 void main()
 {    
@@ -8,6 +8,5 @@ void main()
     printf("Name: Neeharika Kamlanker \n");
     printf("Branch: CSE \n");
     printf("Section: C \n");
-    getch();
     
 }
