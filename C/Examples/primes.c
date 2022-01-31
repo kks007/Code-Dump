@@ -12,7 +12,6 @@ int main()
 
     bool isPrime;
 
-    // hardcode prime numbers
     primes[0] = 2;
     primes[1] = 3;
 
