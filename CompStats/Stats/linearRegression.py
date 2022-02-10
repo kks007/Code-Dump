@@ -1,9 +1,9 @@
 import pandas as pd
-import matplotlib.pyplot as plt
 
 a=0.0
 b=0.0
-dataset1=pd.read_csv('Stats/linear reg.csv', header=None)
+dataset1=pd.read_csv('linear-reg.csv', header=None)
+
 def linear():
     
 
