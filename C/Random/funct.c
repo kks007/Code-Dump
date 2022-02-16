@@ -14,6 +14,5 @@ int main ()
     int local;
     sum(6,7);
     sum(5,7);
-
     return 0;
 }
