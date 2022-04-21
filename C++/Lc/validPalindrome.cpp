@@ -26,4 +26,5 @@ bool isPalindrome(string str)
 
 int main()
 {
+   cout<< isPalindrome("helllleh");
 }
