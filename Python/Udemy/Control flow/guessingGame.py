@@ -7,8 +7,8 @@ print(answer)  #TODO: Remove after testing
 
 print("Please guess a number between 1 and {}: ".format(highest))
 
-while tries <= 4:  
-    if tries == 4:
+while tries <= 5:  
+    if tries == 5:
         print("Sorry, you lost")
         break
     guess = int(input())
