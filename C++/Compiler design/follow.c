@@ -8,7 +8,6 @@ void follow(char c);
 void first(char c);
 void main()
 {
-    clrscr();
     int i, z;
     char c, ch;
     printf("Enter the no.of productions:");
